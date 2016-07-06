@@ -1,0 +1,42 @@
+-injars /Users/paulgonzales/Globe/android/app/build/intermediates/multi-dex/debug/allclasses.jar
+-outjars /Users/paulgonzales/Globe/android/app/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /usr/local/Cellar/android-sdk/24.4.1_1/build-tools/23.0.1/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontpreverify
+-dontwarn
+-printconfiguration /Users/paulgonzales/Globe/android/app/build/intermediates/multi-dex/debug/components.flags
+
+
+-keep class null {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.facebook.FacebookActivity {
+    <init>();
+}
+
+-keep class com.globe.MainActivity {
+    <init>();
+}
+
+-keep class com.facebook.react.devsupport.DevSettingsActivity {
+    <init>();
+}
+
+-keep class com.facebook.CustomTabActivity {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}

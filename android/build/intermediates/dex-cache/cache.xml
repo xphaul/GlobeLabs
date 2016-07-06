@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/paulgonzales/Globe/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="857099e23430445aeb65cf703d5adf646ff280f1">
+        <dex dex="/Users/paulgonzales/Globe/android/app/build/intermediates/pre-dexed/debug/classes-fe335d191e7d262b9b0be1c7a7d7d112525a5311.jar" />
+    </item>
+    <item
+        jar="/Users/paulgonzales/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/paulgonzales/Globe/android/app/build/intermediates/pre-dexed/debug/okio-1.8.0-15fa402c5804587fa88c8918ce10d4f3f26f50f7.jar" />
+    </item>
+    <item
+        jar="/Users/paulgonzales/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/Users/paulgonzales/Globe/android/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0-a5db5f3fce39fb3e04ac3f3287825f672614b6a6.jar" />
+    </item>
+    <item
+        jar="/Users/paulgonzales/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.2.0/6f8a4b1435c9e0a6f9c5fe4a1be46627b848fd0c/okhttp-urlconnection-3.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6f8a4b1435c9e0a6f9c5fe4a1be46627b848fd0c">
+        <dex dex="/Users/paulgonzales/Globe/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.2.0-2101f02f64410fc1bed333bc9fb3ab7c6afb0ab5.jar" />
+    </item>
+    <item
+        jar="/Users/paulgonzales/Globe/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/paulgonzales/Globe/android/app/build/intermediates/pre-dexed/debug/classes-c78560351aa8d612ff3bd1cd9f89197d29b9e557.jar" />
+    </item>
+    <item
+        jar="/Users/paulgonzales/Globe/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="65f0c887ee1f57cd0ea65b228e39b7f35372b798">
+        <dex dex="/Users/paulgonzales/Globe/android/app/build/intermediates/pre-dexed/debug/classes-cce0e4608b5f29f9ded3577699ca823500ab21c1.jar" />
+    </item>
+    <item
+        jar="/Users/paulgonzales/Globe/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/paulgonzales/Globe/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-d69d571e81486d50b28f78e4916e93de7b573afa.jar" />
+    </item>
+    <item
+        jar="/Users/paulgonzales/Globe/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d323cf4983bdfce7136a1ce5e32710e1b36b20fe">
+        <dex dex="/Users/paulgonzales/Globe/android/app/build/intermediates/pre-dexed/debug/classes-e42fbc2762c0e105136b61ce883403cc9882b89d.jar" />
+    </item>
+    <item
+        jar="/usr/local/Cellar/android-sdk/24.4.1_1/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/paulgonzales/Globe/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-317c242139e7eff97a4a7374f577271525a64de6.jar" />
+    </item>
+    <item
+        jar="/Users/paulgonzales/Globe/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.28.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e692405777839befca453a23ecc89fce2cebd058">
+        <dex dex="/Users/paulgonzales/Globe/android/app/build/intermediates/pre-dexed/debug/classes-0fabec4d24e356ce56db2dfdcad34ac1466defab.jar" />
+    </item>
+    <item
+        jar="/Users/paulgonzales/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.2.0/1ea229d6984444c8c58b8e97ba4c8429d9d135b3/okhttp-ws-3.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ea229d6984444c8c58b8e97ba4c8429d9d135b3">
+        <dex dex="/Users/paulgonzales/Globe/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.2.0-091a502ddfe7bb84186123353b52a90a861a9bcd.jar" />
+    </item>
+    <item
+        jar="/Users/paulgonzales/Globe/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="53880c6e24bb574c2f03fd0f743a268ccc502f45">
+        <dex dex="/Users/paulgonzales/Globe/android/app/build/intermediates/pre-dexed/debug/classes-9b18046ae12c5837b2057d062b10276f90490fce.jar" />
+    </item>
+    <item
+        jar="/Users/paulgonzales/Globe/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5e88a2a26ac71cd7f8fd8bd9f9381fa06d1a47a3">
+        <dex dex="/Users/paulgonzales/Globe/android/app/build/intermediates/pre-dexed/debug/classes-ef677fdcbf8784ec71a339d956b76895d3175082.jar" />
+    </item>
+    <item
+        jar="/Users/paulgonzales/Globe/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6e1ed00013584399dbe27d45ac1fd6a9828c9fca">
+        <dex dex="/Users/paulgonzales/Globe/android/app/build/intermediates/pre-dexed/debug/classes-a0be13ac6ae4ef972575b9054358d9838e64ebe1.jar" />
+    </item>
+    <item
+        jar="/Users/paulgonzales/Globe/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.28.0/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b63941892634511f96bdb6e49a3aa62292fd5d90">
+        <dex dex="/Users/paulgonzales/Globe/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-51dfdc2dd71f4e84a642135dda24737b86c7334b.jar" />
+    </item>
+
+</items>
