@@ -8,7 +8,9 @@ import {
 
 import Login from './login/login';
 import Home from './home/home';
+import Article from './home/article';
 import Maps from './maps/maps';
+
 // var Tutorial = require('./login/tutorial');
 import Tabs from './tabs';
 // // var Last = require('./network/filters');
@@ -23,6 +25,7 @@ var ROUTES = {
 	login: Login,
 	home: Home,
 	maps: Maps,
+	article: Article,
 	// linkedInLogin: LinkedInLogin
 };
 

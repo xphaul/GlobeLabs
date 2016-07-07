@@ -7,7 +7,8 @@ import {
   TouchableHighlight,
   AsyncStorage,
   Image,
-  ScrollView
+  ScrollView,
+  Alert
 } from 'react-native';
 
 import {Card, Button} from 'react-native-material-design';
@@ -18,46 +19,29 @@ module.exports = React.createClass({
       selectedTab: 'Home',
     };
   },
+  viewArticle() {
+    this.props.mainNavigator.push({name: "article", image: 'https://i.ytimg.com/vi/XiWRUfz_zjw/maxresdefault.jpg', articleHeadline: 'Snow Storm Signal No. 1', mainNavigator: this.props.mainNavigator});
+  },
   render(){
     return (
         <ScrollView style={styles.container}>
-        <Card>
-            <Card.Media
-                image={<Image source={{uri: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSVp5jlYlhHRiaBmh2eYXndB1urSzGVDJ3Oym56FPcU0I1ei10w'}} />}
-                overlay
-            />
-            <Card.Body>
-                <Text style={{fontWeight: 'bold'}}>Snow Storm Signal No. 1</Text>
-            </Card.Body>
-            <Card.Actions position="right">
-                <Button text="Read More"/>
-            </Card.Actions>
-        </Card>
-        <Card>
-            <Card.Media
-                image={<Image source={{uri: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSVp5jlYlhHRiaBmh2eYXndB1urSzGVDJ3Oym56FPcU0I1ei10w'}} />}
-                overlay
-            />
-            <Card.Body>
-                <Text style={{fontWeight: 'bold'}}>Snow Storm Signal No. 1</Text>
-            </Card.Body>
-            <Card.Actions position="right">
-                <Button text="Read More"/>
-            </Card.Actions>
-        </Card>
-        <Card>
-            <Card.Media
-                image={<Image source={{uri: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSVp5jlYlhHRiaBmh2eYXndB1urSzGVDJ3Oym56FPcU0I1ei10w'}} />}
-                overlay
-            />
-            <Card.Body>
-                <Text style={{fontWeight: 'bold'}}>Snow Storm Signal No. 1</Text>
-            </Card.Body>
-            <Card.Actions position="right">
-                <Button text="Read More"/>
-            </Card.Actions>
-        </Card>
-      </ScrollView>
+          <TouchableHighlight onPress={this.viewArticle} underlayColor={'none'}>
+            <View>
+              <Card>
+                  <Card.Media
+                      image={<Image source={{uri: 'https://i.ytimg.com/vi/XiWRUfz_zjw/maxresdefault.jpg'}} />}
+                      overlay
+                  />
+                  <Card.Body>
+                      <Text style={{fontWeight: 'bold'}}>Snow Storm Signal No. 1</Text>
+                  </Card.Body>
+                  <Card.Actions position="right">
+                      <Button text="Read More" onPress={this.viewArticle}/>
+                  </Card.Actions>
+              </Card>
+            </View>
+          </TouchableHighlight>
+        </ScrollView>
       )
   },
 });

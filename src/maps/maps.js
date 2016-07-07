@@ -9,14 +9,17 @@ import {
 } from 'react-native';
 
 import MapView from 'react-native-maps';
+import ActionButton from 'react-native-action-button';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 module.exports = React.createClass({
   getInitialState() {
      return {
         latitude: 37.78825,
         longitude: -122.4324,
-        latitudeDelta: 0.0922,
-        longitudeDelta: 0.0421,
+        latitudeDelta: 0.922,
+        longitudeDelta: 0.421,
+        clickedState: 'Friends'
     };
   },
 
@@ -49,6 +52,17 @@ module.exports = React.createClass({
                 longitudeDelta: 0.0421,
               }}>
           </MapView>
+          <ActionButton 
+            buttonColor = "rgba(231,76,60,1)" 
+            icon = {this.state.clickedState == 'Friends' ? <Icon name="users" color={'#FFF'} style={styles.actionButtonIcon} /> : <Icon name="ambulance" color={'#FFF'} style={styles.actionButtonIcon} />} 
+            degrees={0}>
+            <ActionButton.Item buttonColor='white' title="Friends" onPress={() => {this.setState({clickedState: 'Friends'})}}>
+              <Icon name="users" color={'rgba(231,76,60,1)'} style={styles.actionButtonIcon} />
+            </ActionButton.Item>
+            <ActionButton.Item buttonColor='white' title="Establishments" onPress={() => {this.setState({clickedState: 'Establishments'})}}>
+              <Icon name="ambulance" color={'rgba(231,76,60,1)'} style={styles.actionButtonIcon} />
+            </ActionButton.Item>
+          </ActionButton>
         </View>
       )
   },

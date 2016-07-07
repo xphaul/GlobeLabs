@@ -36,11 +36,12 @@ module.exports = React.createClass({
     console.log(Icon)
     return (
         <View style={styles.container}>
+        <View style={{height: 35, backgroundColor: '#F44336', justifyContent: 'flex-end', alignItems: 'center'}}><Text style={{color: 'white', fontSize: 20}}>{this.state.selectedTab.toUpperCase()}</Text></View>
         <TabNavigator>
           <TabNavigator.Item
             selected    = {this.state.selectedTab === 'Home'}
-            renderIcon  = {() => <Icon name={"home"} size={30} color={'rgb(204,204,204)'}/>}
-            renderSelectedIcon={() => <Icon name={"home"} size={30} color={'rgb(250,130,29)'}/>}
+            renderIcon  = {() => <Icon name={"home"} size={30} color={'#C62828'}/>}
+            renderSelectedIcon={() => <Icon name={"home"} size={30} color={'#FFF'}/>}
             onPress={() => this.setState({ selectedTab: 'Home' })}>
               <Navigator
                 ref={ref => this.props.navigator.auctions = ref}
@@ -52,8 +53,8 @@ module.exports = React.createClass({
           </TabNavigator.Item>
           <TabNavigator.Item
             selected    = {this.state.selectedTab === 'Maps'}
-            renderIcon  = {() => <Icon name={"globe"} size={30} color={'rgb(204,204,204)'}/>}
-            renderSelectedIcon={() => <Icon name={"globe"} size={30} color={'rgb(250,130,29)'}/>}
+            renderIcon  = {() => <Icon name={"globe"} size={30} color={'#C62828'}/>}
+            renderSelectedIcon={() => <Icon name={"globe"} size={30} color={'#FFF'}/>}
             onPress={() => this.setState({ selectedTab: 'Maps' })}>
               <Navigator
                 ref={ref => this.props.navigator.auctions = ref}
