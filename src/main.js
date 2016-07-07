@@ -7,6 +7,8 @@ import {
 } from 'react-native';
 
 import Login from './login/login';
+import Home from './home/home';
+import Maps from './maps/maps';
 // var Tutorial = require('./login/tutorial');
 import Tabs from './tabs';
 // // var Last = require('./network/filters');
@@ -19,6 +21,8 @@ var ROUTES = {
 	// // last: Last,
 	// // webview: WebView,
 	login: Login,
+	home: Home,
+	maps: Maps,
 	// linkedInLogin: LinkedInLogin
 };
 

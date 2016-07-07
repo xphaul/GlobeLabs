@@ -3,6 +3,7 @@ package com.globe;
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
+import com.oblador.vectoricons.VectorIconsPackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -12,6 +13,7 @@ import com.facebook.CallbackManager;
 
 import android.os.Bundle;
 import android.content.Intent;
+import com.airbnb.android.react.maps.MapsPackage;
 
 public class MainActivity extends ReactActivity {
 
@@ -43,7 +45,9 @@ public class MainActivity extends ReactActivity {
     protected List<ReactPackage> getPackages() {
         return Arrays.<ReactPackage>asList(
             new MainReactPackage(),
-            new FBSDKPackage(mCallbackManager)
+            new FBSDKPackage(mCallbackManager),
+            new VectorIconsPackage(),
+            new MapsPackage(this)
         );
     }
 
